@@ -1,11 +1,18 @@
 @import 'variables';
 
-h1 {
-    font-style: 1rem;
-    color: $red-color;
+.card-course-item {
+    margin-top: 16px;
 }
 
-h2 {
-    font-style: 1rem;
-    color: green;
+.user-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin: auto;
+    margin-right: 4px;
+    display: inline-block;
+}
+
+.navbar-list {
+    justify-content: flex-end;
 }
