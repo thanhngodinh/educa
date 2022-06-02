@@ -10,9 +10,14 @@
     border-radius: 50%;
     margin: auto;
     margin-right: 4px;
-    display: inline-block;
+    display: flex;
 }
 
 .navbar-list {
     justify-content: flex-end;
+}
+
+.checkbox-selected-all-option {
+    width: 220px;
+    margin: 0 16px;
 }
